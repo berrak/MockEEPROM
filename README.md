@@ -18,12 +18,10 @@ The purpose of this library is to be a practical eye-opener on mocked object usa
 
 ## Usage
 
-Add the `include path` to the `MockEEPROM` source directory for the IDE. For example, in the Eclipse IDE, open.
+Add the `include path` to the `MockEEPROM` source directory for the IDE. For example, in the `Eclipse IDE`, open.
 `Project->Properties->C++ General->Paths and Symbols->Includes->Languages: Gnu C++, Include Directories: /home/bekr/Arduino/libraries/MockEEPROM/src`.
 
-If replacing Arduino language constructs, add to the include path `Mock` for the IDE.
-
-At the beginning of the `main.cpp` file, add, and possible also `<Mock.h>`.
+At the beginning of the `main.cpp` file, add.
 ```cpp
 #include <MockEEPROM.h>
 using namespace mock;
@@ -33,12 +31,12 @@ Pre-pend all Arduino's EEPROM library calls with '`MockEEPROM::`', like this.
 ```cpp
 MockEEPROM::put(0, value);
 ```
-The mocked functions return immediately or return zero. To remove all mocking fragments, use either search/replace in the IDE, or run the `make-demock.sh` shell script on the file to erase all added `mock` -fragments.
+The mocked functions return immediately or return zero. To remove all mocking fragments, use either search/replace in the IDE, or run the `make-demock.sh` (recommended method) shell script on the file to erase all added `mock` -fragments. If replacing `Arduino language constructs`, add the include path for `Mock` in the IDE. See library [Mock](https://github.com/berrak/Mock/) for information.
 
 
 ## Examples
 
-In Arduino IDE scroll down the long list below `File->Examples` and find `MockEEPROM`. An example run of the example may look like the following screen output. Note that a majority of the mocked methods return zero or return immediately.
+In Arduino IDE scroll down the long list below `File->Examples` and find `MockEEPROM`. An example run may look like the following screen output. Note that the mocked methods return zero or return immediately.
 
 ```
 Mocked Arduino methods returns zero, or returns directly.
