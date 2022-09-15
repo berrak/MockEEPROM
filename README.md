@@ -1,7 +1,7 @@
 [![GitHub license](https://img.shields.io/github/license/berrak/MockEEPROM.svg?logo=gnu&logoColor=ffffff)](https://github.com/berrak/MockEEPROM/blob/master/LICENSE)
 [![GitHub version](https://img.shields.io/github/release/berrak/MockEEPROM.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/MockEEPROM/releases/latest)
 [![GitHub issues](https://img.shields.io/github/issues/berrak/MockEEPROM.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/MockEEPROM/issues)
-[![Documentation](https://img.shields.io/badge/documentation-doxygen-green.svg)](https://berrak.github.io/MockEEPROM/)
+[![Documentation](https://img.shields.io/badge/documentation-doxygen-green.svg)](https://berrak.github.io/MockEEPROM/classmock_1_1MockEEPROM.html)
 [![Installation instructions](https://www.ardu-badge.com/badge/MockEEPROM.svg?)](https://www.ardu-badge.com/MockEEPROM)
 
 # Arduino library MockEEPROM
@@ -54,7 +54,7 @@ end(): 0
 
 ## Documentation (GitHub Pages - Doxygen)
 
-[Library documentation](https://berrak.github.io/MockEEPROM/).
+[Library documentation](https://berrak.github.io/MockEEPROM/classmock_1_1MockEEPROM.html).
 
 ## How to Install
 
