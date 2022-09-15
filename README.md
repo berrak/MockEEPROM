@@ -83,5 +83,5 @@ make-demock.sh other.h
 
 ## Planned Improvements/Changes
 
-For planned changes, improvements, and known bugs, please visit the [Github issues tracker](https://github.com/berrak/MockEEPROM/issues). Unfortunately, they're not yet 100% coverage of Arduino methods, but only the most common. Testing more on other architectures and boards than Arduino Uno is also on the list of upcoming activities.
+For planned changes, improvements, and known bugs, please visit the [Github issues tracker](https://github.com/berrak/MockEEPROM/issues).
 

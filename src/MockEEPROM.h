@@ -160,27 +160,4 @@ namespace mock {
 
 /*! @} End of Doxygen Groups*/
 
-#ifndef ARDUINO
-
-#define HIGH 0x1            ///< Arduino definition for HIGH
-#define LOW  0x0            ///< Arduino definition for LOW
-
-#define INPUT 0x0           ///< Arduino definition for INPUT
-#define OUTPUT 0x1          ///< Arduino definition for OUTPUT
-#define INPUT_PULLUP 0x2    ///< Arduino definition for INPUT_PULLUP
-
-#define CHANGE 1            ///< Arduino definition for CHANGE
-#define FALLING 2           ///< Arduino definition for FALLING
-#define RISING 3            ///< Arduino definition for RISING
-
-// Arduino standard typedef's
-/** Arduino typedef for word */
-typedef uint16_t word;
-/** Arduino typedef for boolean */
-typedef bool boolean;
-/** Arduino typedef for byte */
-typedef uint8_t byte;
-
-#endif
-
 #endif /* MOCKEEPROM_H_ */
