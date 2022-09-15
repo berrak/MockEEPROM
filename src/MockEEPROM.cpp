@@ -1,12 +1,15 @@
 /*!
  * @file MockEEPROM.cpp
  *
- * @mainpage The Arduino library replaces EEPROM librray methods with mock methods.
+ * @mainpage Replace Arduino standard EEPROM library with mocked methods.
  *
  * @section intro_sec Introduction
  *
- * Project development in parallel for hardware and software teams with the
- * Mock suits of libraries. Mock methods for Arduino library EEPROM.
+ * The mocked functions return immediately or return zero. The mocked
+ * version let you develop code without the hardware. Another objective
+ * of mocking is to focus on avoiding logical human errors in the
+ * overall design flow of the program. Unfortunately, this problem in the
+ * code tends to be less well-tested and may end up as an end-user complaint.
  *
  * @section dependencies Dependencies
  *
