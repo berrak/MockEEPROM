@@ -7,7 +7,7 @@
 # Arduino library MockEEPROM
 Replace the Arduino library EEPROM with the `mocked` version and let you develop code without the hardware. The mocked functions return immediately or return zero. Run parallel hardware and system development for greater efficiency. Arduino's command line tool, such as [arduino-cli](https://github.com/arduino/arduino-cli), frees you from Arduino IDE for tests and uploads.
 
-## Why try mocking Arduino speak and and it's libraries?
+## Why try mocking Arduino C++ speak and and it's libraries?
 
 - Develop software independently of any related parallel hardware project.
 - Use any development environment or your favorite editor with `arduino-cli` and library `MockEEPROM`.
